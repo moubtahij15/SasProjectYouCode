@@ -128,9 +128,8 @@ struct Compte * descendant( struct Compte *comptee, int c) {
 
     }
 
-
-
-    for(int i =0; i<pos; i++)
+        if (pos!=0){
+            for(int i =0; i<pos; i++)
     {
 
         //affichage des resultats
@@ -144,6 +143,12 @@ struct Compte * descendant( struct Compte *comptee, int c) {
 
 
     }
+        }else{
+            printf(" le chiffre que tu as enter est superiur que les autres compte bancaires ");
+
+        }
+
+
 
 }
 
